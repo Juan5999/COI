@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #bceeff; /* Color de fondo para toda la página */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-screen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px; /* Cambia el tamaño de la letra */
+  font-weight: bold; /* Otras propiedades de estilo de la letra */
+  color: #333; /* Cambia el color de la letra */
+}
+
+.header img {
+  width: 18%; /* Cambia el tamaño horizontalmente al 100% del contenedor */
+  height: auto; /* Autoajusta la altura proporcionalmente */
+  border: 6px solid black; /* Establece un borde sólido de 2 píxeles de grosor y color negro */
+  border-radius: 20px; /* Opcional: Agrega bordes redondeados */
+  border-color: #0056b3;
+}
+
+/* App.css */
+
+.custom-font {
+  font-family: 'Arial', sans-serif; /* Cambia 'Arial' por el tipo de letra que prefieras */
+}
+
+.custom-button {
+  font-family: 'Verdana', sans-serif; /* Cambia 'Verdana' por el tipo de letra que prefieras */
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+/* App.css */
+
+/* Estilo para el texto y la carga de archivos */
+.custom-font {
+  font-family: 'Arial', sans-serif; /* Cambia 'Arial' por el tipo de letra que prefieras */
+}
+
+/* Estilo para el botón de carga de archivos */
+input[type="file"] {
+  font-family: 'Verdana', sans-serif; /* Cambia 'Verdana' por el tipo de letra que prefieras */
+  background-color: #0056b3
+}
+
+.file-upload-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: 2px solid #0056b3; /* Ajusta esto para cambiar el borde */
+  cursor: pointer;
+  font-family: 'Verdana', sans-serif;
+  border-radius: 5px; /* Opcional para bordes redondeados */
+}
+
+.file-upload-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
